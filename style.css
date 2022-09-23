@@ -612,3 +612,214 @@ flex-grow: 0;
    flex-grow: 0;
    z-index: 2;
  }
+ .contact-container {
+   box-sizing: border-box;
+
+   /* Auto layout */
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 49px 59px;
+   gap: 24px;
+   margin-left: 686px;
+   margin-top: 110px;
+   width: 548px;
+   height: 750px;
+   
+   /* pry2 */
+   
+   border: 1px solid #FFFFEE;
+   border-radius: 20px;
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 12;
+   flex-grow: 0;
+   z-index: 1;
+ }
+ #name {
+   width: 57px;
+   height: 19px;
+   
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22.24px;
+   line-height: 19px;
+   /* identical to box height, or 83% */
+   
+   
+   /* pry2 */
+   
+   color: #FFFFEE;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ #email {
+   width: 56px;
+   height: 19px;
+   
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22.24px;
+   line-height: 19px;
+   /* identical to box height, or 83% */
+   
+   
+   /* pry2 */
+   
+   color: #FFFFEE;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+ }
+ #message {
+   width: 83px;
+   height: 19px;
+   
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22.24px;
+   line-height: 19px;
+   /* identical to box height, or 83% */
+   
+   
+   /* pry2 */
+   
+   color: #FFFFEE;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 4;
+   flex-grow: 0;
+ }
+ .input1 {
+   box-sizing: border-box;
+
+   /* Auto layout */
+   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 13.1785px;
+   gap: 13.18px;
+   
+   width: 430px;
+   height: 80px;
+   
+   background: rgba(34, 0, 0, 0.5);
+   /* pry2 */
+   
+   border: 1px solid #FFFFEE;
+   border-radius: 6.58926px;
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+ }
+ .input2 {
+   box-sizing: border-box;
+
+   /* Auto layout */
+   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 13.1785px;
+   gap: 13.18px;
+   
+   width: 430px;
+   height: 80px;
+   
+   background: rgba(34, 0, 0, 0.5);
+   /* pry2 */
+   
+   border: 1px solid #FFFFEE;
+   border-radius: 6.58926px;
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 3;
+   flex-grow: 0;
+ }
+ .input3 {
+   box-sizing: border-box;
+
+   /* Auto layout */
+   
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 21px 14px;
+   gap: 10px;
+   
+   width: 430px;
+   height: 137px;
+   
+   background: rgba(34, 0, 0, 0.5);
+   /* pry2 */
+   
+   border: 1px solid #FFFFEE;
+   border-radius: 6.58926px;
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 5;
+   flex-grow: 0;
+ }
+ .send-message {
+   box-sizing: border-box;
+
+   /* Auto layout */
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 13.1785px;
+   gap: 144.96px;
+   
+   width: 200.16px;
+   height: 50.04px;
+   
+   /* pry2 */
+   
+   background: #FFFFEE;
+   border-radius: 6.58926px;
+   
+   /* Inside auto layout */
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22.24px;
+   line-height: 19px;
+   color: #220000;
+   flex: none;
+   order: 6;
+   flex-grow: 0;
+ }
+ .send-message:hover {
+   border: 1px solid #f8f8f8;
+   background-color: transparent;
+   color: #F8F8F8;
+}
