@@ -1,0 +1,614 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    display: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 0px;
+    gap: 110px;
+    isolation: isolate;
+    position: relative;
+    width: 1920px;
+    height: 6414.84px;
+    background-color: #000000;
+ }
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 358px;
+    gap: 426px;
+    width: 1920px;
+    height: 90px;
+    /* Inside auto layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   z-index: 13;
+ }
+ .navbar .menu-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 130px;
+    width: 661px;
+    height: 90px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+ }
+ .set-size {
+    width: 77px;
+    height: 23px;
+    /* H4 */
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height, or 114% */
+    text-align: center;
+    color: #F8F8F8;
+ }
+ .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 45px 10px 10px;
+    gap: 10px;
+    width: 105px;
+    height: 87px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ }
+ .mylogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    width: 105px;
+    height: 87px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ }
+ .menu-main .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 365px 0px 363px;
+    gap: 121px;
+    width: 1920px;
+    height: 800px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 12;
+    margin-top: 70px;
+ }
+ #myinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0px 0px;
+    gap: 50px;
+    width: 430px;
+    height: 334px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ }
+ .bbb {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 10px;
+   gap: 10px;
+   width: 430px;
+   height: 46px;
+   /* Inside auto layout */
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+ }
+ .button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 6px;
+    width: 198px;
+    height: 54px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #220000;
+    /* pry2 */
+    background: #FFFFEE;
+    border-radius: 10px 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+ }
+ .button1:hover {
+	 border: 1px solid #f8f8f8;
+    background-color: transparent;
+    color: #F8F8F8;
+}
+ h1 {
+    width: 430px;
+    height: 26px; 
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 26px;
+    /* identical to box height, or 45% */
+    color: #FFFFFF;
+    /* Inside auto layout */  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ }
+ p {
+    width: 430px;
+    height: 110px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 152% */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+ }
+ #profile-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px; 
+    width: 647px;
+    height: 712px;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ }
+ a {
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 6px;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+ }
+ a:hover {
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #ffffee;
+    color: #220000;
+}
+ .featured-p {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 5px 15px;
+   gap: 10px;
+   
+   width: 189px;
+   height: 40px;
+   
+   /* pry2 */
+   
+   background: #FFFFEE;
+   border-radius: 10px 0px;
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ #feature-style {
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: #5C0000;
+   /* Inside auto layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ .div-divider {
+   width: 1011.56px;
+   height: 0px;
+   
+   border: 1px solid rgba(255, 255, 238, 0.3);
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+ }
+ .divider {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   margin-top: 110px;
+   width: 1920px;
+   height: 40px;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 2;
+   align-self: stretch;
+   flex-grow: 0;
+   z-index: 9;
+ }
+ .pro-container1 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 18px;
+   margin-top: 110px;
+   width: 1920px;
+   height: 508px;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 3;
+   flex-grow: 0;
+   z-index: 8;
+ }
+ .frame1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 10px;
+   
+   width: 625px;
+   height: 520px;
+   
+   /* pry2 */
+   
+   border: 5px solid #FFFFEE;
+   border-radius: 10px;
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ #pp1 {
+   width: 625px;
+   height: 508px;
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ .details1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 10px 9px;
+   gap: 40px;
+   
+   width: 547px;
+   height: 340px;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+ }
+ .topic {
+   width: 181px;
+   height: 30px;
+   
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 30px;
+   /* identical to box height, or 75% */
+   
+   
+   /* pry2 */
+   
+   color: #FFFFEE;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ .subtopic1 {
+   width: 529px;
+height: 107px;
+
+font-family: 'Frank Ruhl Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 152% */
+
+
+/* pry2 */
+
+color: #FFFFEE;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+ }
+#ddd1 {
+   width: 401px;
+   height: 33px;
+   
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   /* or 125% */
+   
+   
+   /* Green 3 */
+   
+   color: #6FCF97;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+}
+.button2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 133px;
+height: 30px;
+
+/* pry2 */
+
+background: #FFFFEE;
+border-radius: 10px 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+#view-now {
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: #5C0000;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.pro-container2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 18px;
+   margin-top: 110px;
+   width: 1920px;
+   height: 508px;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 4;
+   flex-grow: 0;
+   z-index: 8;
+ }
+ .pro-container3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 18px;
+   margin-top: 110px;
+   width: 1920px;
+   height: 508px;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 5;
+   flex-grow: 0;
+   z-index: 8;
+ }
+ .divider2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   margin-top: 110px;
+   width: 1920px;
+   height: 40px;
+   
+   
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 2;
+   align-self: stretch;
+   flex-grow: 0;
+   z-index: 9;
+ }
+ .about-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 16px;
+   width: 1920px;
+   height: 740px; flex: none;
+   margin-top: 110px;
+   order: 8;
+   align-self: stretch;
+   flex-grow: 0;
+   z-index: 5;
+ }
+ .frame2 {
+   width: 587.5px;
+   height: 740px;
+   background: url(Snapchat-575562088.jpg);
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ .about-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   gap: 10px;
+   width: 614px;
+   height: 777px;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+ }
+ #about-text {
+   width: 594px;
+   height: 757px;
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 30px;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ .skillz {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 93px;
+   width: 672px;
+   height: 599.5px;
+   margin-top: 110px;
+   margin-left: 624px;
+   flex: none;
+   order: 9;
+   flex-grow: 0;
+   z-index: 4;
+ }
+ #skillz-style {
+   width: 123px;
+   height: 30px;  
+   font-family: 'Frank Ruhl Libre';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 30px;
+   color: #FFFFEE;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+ }
+ .skillz--z {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 28px;
+   
+   width: 581px;
+   height: 134px;
+   margin-top: 110px;
+   margin-left: 669.5px; 
+   flex: none;
+   order: 10;
+   flex-grow: 0;
+   z-index: 3;
+ }
+ .divider3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   margin-top: 110px;
+   width: 1920px;
+   height: 40px;
+   flex: none;
+   order: 11;
+   align-self: stretch;
+   flex-grow: 0;
+   z-index: 2;
+ }
