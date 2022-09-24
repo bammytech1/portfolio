@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar sticky-nav">
             <div class="nav-container">
                 <img class="mylogo" src="logo.png" alt="logologo">
             </div>
@@ -53,7 +53,7 @@
 
     <div class="pro-container1">
         <div class="frame1">
-              <img src="project1.png" alt="firstproject">
+              <img src="project1.png" alt="firstproject" loading="lazy">
         </div>
         <div id="topic." class=".details1">
             <h2 class="topic">Bamcoins</h2>
@@ -129,15 +129,42 @@
         <div class="featured-p" id="feature-style">Contact me</div>
     </div>
 
-    <div class="contact-container">
+    <fieldset class="contact-container">
+        <div>
         <h3 id="name">Name</h3>
-        <div class="input1"></div>
+        <div class="rrr"><input class="input1" type="text" required /></div>
+        </div>
+        <div>
         <h3 id="email">Email</h3>
-        <div class="input2"></div>
+        <div class=""><input class="input2" type="email" required placeholder="example@mail.com" /></div>
+        </div>
+        <div>
         <h3 id="message">Message</h3>
-        <div class="input3"></div>
+        <div class=""><textarea class="input3" type="text" required name="bio" rows="3" cols="30" placeholder="Your message here..."></textarea>></textarea></div>
+        </div>
         <button class="send-message" id="send-it">Send message</button>
+    </fieldset>
+
+    <div class="footer-container">
+        <div class="footer">
+            <div class="social-m">
+                <img src="linkedin.png" alt="linkedinlogo" id="icon1">
+                <img src="dribble.png" alt="dribblelogo" id="icon2">
+                <img src="github.png" alt="gitlogo" id="icon3">
+                <img src="mail.png" alt="maillogo" id="icon3">
+            </div>
+            <div>
+                <div><p id="phone-num">+234 813 9647915</p></div>
+                <div><p id="mymail">bayodegbenga@outlook.com</p></div>
+            </div>
+        </div>
+    
+    <div>
+        <p id="right">Copyright 2022 Designed and built by Gbenga Bayode.</p>
     </div>
+    </div>
+
+    
 
 
 </body>
