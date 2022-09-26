@@ -15,6 +15,10 @@ body {
     height: 6328px;
     background-color: #000000;
  }
+ a {
+  color: #ecec01;
+  text-decoration: none;
+ }
  .navbar {
     display: flex;
     flex-direction: row;
@@ -145,7 +149,7 @@ body {
     height: 54px;
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #220000;
@@ -165,10 +169,10 @@ body {
  h1 {
     width: 430px;
     height: 26px; 
-    font-family: 'Segoe UI';
+    font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 58px;
     line-height: 26px;
     /* identical to box height, or 45% */
     color: #FFFFFF;
@@ -208,7 +212,7 @@ body {
     order: 0;
     flex-grow: 0;
  }
- a {
+ .set-size a {
     color: #f8f8f8;
     text-decoration: none;
     padding: 6px;
@@ -216,7 +220,7 @@ body {
     -o-transition: all 0.25s;
     transition: all 0.25s;
  }
- a:hover {
+ .set-size a:hover {
     padding: 6px;
     border-radius: 5px;
     background-color: #ffffee;
@@ -554,9 +558,9 @@ flex-grow: 0;
    height: 757px;
    font-family: 'Frank Ruhl Libre';
    font-style: normal;
-   font-weight: 700;
-   font-size: 25px;
-   line-height: 30px;
+   font-weight: 300px;
+   font-size: 20px;
+   line-height: 24px;
    flex: none;
    order: 0;
    flex-grow: 0;
@@ -964,4 +968,8 @@ input, textarea {
    flex: none;
    order: 1;
    flex-grow: 0;;
+ }
+.about-container .u-text-blue .u-text-underline {
+  text-decoration: underline;
+  text-decoration-color: #ffd000;
  }
