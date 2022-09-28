@@ -871,12 +871,12 @@ input, textarea {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 0px;
+   padding-top: 0px;
    gap: 10px;
    margin-top: 170px;
    width: 1920px;
-   height: 205px;
-   
+   height: 180px;
+   margin-top: 110;
    
    /* Inside auto layout */
    
@@ -894,7 +894,7 @@ input, textarea {
    padding: 0px 795px;
    
    width: 1918px;
-   height: 250px;
+   height: 310px;
    
    /* pry2 */
    
